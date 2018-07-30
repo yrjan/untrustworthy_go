@@ -16,7 +16,7 @@ Usage:
 
 The first argument, *GODIR*, is a local Go directory we want to copy the source from. The second argument, *GOBOOTSTRAP* are all the different directories containg Go compilers we want to bootstrap the Go compiler from.
 
-The script will create all the compilers needed to use in the *TMP* directory specified on *line 3* of the script. This directory will by default be set to: *${HOME}/tmp*.
+The script will create all the compilers needed to use in the *TMP* directory specified on *line 3* of the script. This directory will by default be set to: `${HOME}/tmp`.
 
 ## All files listings directory
 These files are code listings for programs described in the thesis. If *go* is installed on the system they can be run with:
