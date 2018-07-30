@@ -12,9 +12,7 @@ After this you can compile the Go compiler as usual by entering the *src* direct
 Script to reproducibly compile the Go compiler on Linux for Diverse Double Compiling.
 
 Usage:
-`./golang_build_reproducibly.sh GODIR [GOBOOTSTRAP]+
-GODIR: the directory to copy.
-GOBOOTSTRAP: one of the compilers we want to bootstrap from.`
+`./golang_build_reproducibly.sh GODIR [GOBOOTSTRAP]+`
 
 The first argument, *GODIR*, is a local Go directory we want to copy the source from. The second argument, *GOBOOTSTRAP* are all the different directories containg Go compilers we want to bootstrap the Go compiler from.
 
